@@ -1,6 +1,6 @@
 # PYTHON BOOTCAMP
 
-## Question 1
+## 
 Imagine you are tasked with creating a model for a project using the Django framework. The project should include a data model, templates, and views to display book information.
 
 ### 1. Setting up the Django Project:
