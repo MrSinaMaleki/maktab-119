@@ -72,6 +72,7 @@ Imagine you are tasked with creating a model for a project using the Django fram
 - #### For the Bonus Section (Author model):
 1. Combine the first name and last name into a single column named "Full Name".
 2. If the author’s age is not provided, display `-N/A-`.
+3. When adding a new author, first name and last name should be on the same row.
 
 
 ## Completing the Task:
