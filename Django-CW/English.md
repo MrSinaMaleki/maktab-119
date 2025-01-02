@@ -17,13 +17,13 @@ Imagine you are tasked with creating a model for a project using the Django fram
 - Create three views:
   1. A view to display a list of books (`book_list`) that fetches all the books in the database and sends them to the corresponding template.
   2. A view to display the details of each book (`book_detail`) based on the specific book `id`, fetches its details, and sends them to the template.
-  3. A view to create or edit a book (`book_create_update`) that allows saving a new book or updating existing information. If an `id` exists, it updates the book; otherwise, it creates a new one.
+  3. **(Optional)** A view to create or edit a book (`book_create_update`) that allows saving a new book or updating existing information. If an `id` exists, it updates the book; otherwise, it creates a new one. 
 
 ### 4. Creating Templates:
 - Create three templates:
   1. `book_list.html`: Displays a list of all books with links to their details.
   2. `book_detail.html`: Displays the details of a book, including title, author, publication date, and ISBN.
-  3. `book_form.html`: Includes a form for entering or editing book information.
+  3. **(Optional)**  `book_form.html`: Includes a form for entering or editing book information.
 
 ### 5. Customizing the Django Admin Panel:
 - Add all project models to the admin panel.
