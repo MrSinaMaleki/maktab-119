@@ -32,10 +32,6 @@ Imagine you are tasked with creating a model for a project using the Django fram
 1. If the ISBN field is missing, display `-N/A-`.
 2. Create a new column named "Book - Author" that combines the book title and author into one field.
 
-#### For the Bonus Section (Author model):
-1. Combine the first name and last name into a single column named "Full Name".
-2. If the author’s age is not provided, display `-N/A-`.
-
 ---
 
 ### 6. Adding Logical Delete:
@@ -71,6 +67,11 @@ Imagine you are tasked with creating a model for a project using the Django fram
   - Age
   - Number of authored books
 - Add any additional information you want.
+
+- #### For the Bonus Section (Author model):
+1. Combine the first name and last name into a single column named "Full Name".
+2. If the author’s age is not provided, display `-N/A-`.
+
 
 ## Completing the Task:
 - Submit your task on GitHub.
