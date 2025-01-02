@@ -31,6 +31,7 @@ Imagine you are tasked with creating a model for a project using the Django fram
 #### For the Book model:
 1. If the ISBN field is missing, display `-N/A-`.
 2. Create a new column named "Book - Author" that combines the book title and author into one field.
+3. Search Based on ISBN.
 
 ---
 
